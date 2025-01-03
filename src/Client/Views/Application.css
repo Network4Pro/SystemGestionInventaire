@@ -1,0 +1,175 @@
+/* Style général des boutons */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #4CAF50, #2E7D32);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15;
+    -fx-font-size: 14px;
+}
+
+/* Effet au survol (hover) */
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #66BB6A, #388E3C);
+    -fx-cursor: hand;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+/* Effet lors du clic (pressed) */
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #388E3C, #1B5E20);
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+/* Bouton spécifique pour "Ajouter" */
+.button-add {
+    -fx-background-color: linear-gradient(to bottom, #2196F3, #1976D2);
+}
+
+.button-add:hover {
+    -fx-background-color: linear-gradient(to bottom, #64B5F6, #1E88E5);
+}
+
+/* Bouton spécifique pour "Annuler" */
+.button-cancel {
+    -fx-background-color: linear-gradient(to bottom, #E53935, #B71C1C);
+}
+
+.button-cancel:hover {
+    -fx-background-color: linear-gradient(to bottom, #EF5350, #D32F2F);
+}
+
+
+.top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .2px;
+}
+
+.semi-top-form{
+    -fx-background-color: #efefef;
+    -fx-border-color: #000;
+    -fx-border-width: .2px .4px .4px .4px;
+}
+
+
+.nav-form{
+    -fx-background-color: linear-gradient(to bottom right, #23825e, #6d6e30);
+}
+
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-font-familly:"Arial";
+    -fx-font-size:15px;
+    -fx-text-fill:#fff;
+    -fx-alignement:Top-LEFT;
+}
+
+.shadow{
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.4),5,0,0,0);
+}
+
+
+.white-bg{
+    -fx-background-color:#fff;
+    -fx-background-radius: 8px;
+}
+
+
+.card{
+    -fx-background-color: linear-gradient(to right, #2e4d39, #396b57);
+    -fx-background-radius: 5px;
+}
+
+.login1-btn {
+    -fx-background-color: linear-gradient(to bottom, #1c936d, #245b55) !important;
+    -fx-background-radius: 4px !important;
+    -fx-text-fill: #fff !important;
+    -fx-font-size: 14px !important;
+    -fx-font-family: "Arial" !important;
+    -fx-cursor: hand !important;
+}
+
+.login1-btn:hover{
+    -fx-background-color: linear-gradient(to bottom, #19b17c, #1f7569) !important;
+}
+
+.logout{
+    -fx-background-color:#139662;
+    -fx-cursor:hand;
+}
+
+.logout:hover{
+    -fx-background-color:#0ab570;
+}
+
+
+
+.left-form{
+    -fx-background-color: linear-gradient(to bottom, #23825e, #6d6e30) !important;
+    -fx-border-color: #000;
+    -fx-border-width: .1px 0px .1px 1px;
+}
+
+.right-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px 0px;
+}
+
+
+.textfield{
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 4px;
+    -fx-border-color: #000;
+    -fx-border-radius: 4px;
+    -fx-border-width:.4px;
+    -fx-font-size:13px;
+    -fx-font-family: "Tahoma";
+}
+
+.textfield:focused{
+    -fx-background-color:#fff;
+    -fx-border-color: linear-gradient(to bottom right, #23825e, #6d6e30);
+    -fx-border-width:.8px;
+}
+
+    .search{
+        -fx-background-color: transparent;
+        -fx-border-color: linear-gradient(to bottom right, #23825e, #6d6e30);
+        -fx-font-size:14px;
+        -fx-font-family: "Tahoma";
+        -fx-border-width:1px;
+        -fx-padding:0px 0px 0px 28px;
+    }
+
+    .search:focused{
+        -fx-border-width:2px;
+    }
+
+    .table-view{
+        -fx-background-color: transparent;
+        -fx-padding:0px;
+        -fx-border-color: linear-gradient(to bottom right, #23825e, #6d6e30);
+        -fx-border-radius:8px;
+        -fx-border-width:2px;
+    }
+
+
+    .table-view .column-header-background {
+        -fx-background-color: linear-gradient(to bottom right, #23825e, #6d6e30);
+        -fx-background-radius: 8px 8px 0px 0px;
+    }
+
+    .table-view .column-header, filter {
+        -fx-background-color: transparent;
+    }
+
+    .table-view .column-header .label {
+        -fx-font-family: "Arial";
+        -fx-text-fill:#fff;
+    }

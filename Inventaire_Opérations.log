@@ -1,0 +1,52 @@
+janv. 03, 2025 4:52:12 AM Server.RmiServeur.InventaireServiceImpl authenticate
+INFO: Tentative d'authentification pour l'utilisateur : admin
+janv. 03, 2025 4:52:13 AM Server.RmiServeur.InventaireServiceImpl authenticate
+INFO: Authentification réussie pour l'utilisateur : admin
+janv. 03, 2025 4:52:13 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Tentative de récupération de tous les produits
+janv. 03, 2025 4:52:13 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Nombre de produits récupérés : 0
+janv. 03, 2025 4:52:32 AM Server.RmiServeur.InventaireServiceImpl AddProduit
+INFO: Tentative d'ajout du produit : Server.Model.Produit@5cb8196c
+janv. 03, 2025 4:52:32 AM Server.RmiServeur.InventaireServiceImpl AddProduit
+INFO: Produit ajouté avec succès : Server.Model.Produit@5cb8196c
+janv. 03, 2025 4:52:33 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Tentative de récupération de tous les produits
+janv. 03, 2025 4:52:33 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Nombre de produits récupérés : 1
+janv. 03, 2025 4:52:52 AM Server.RmiServeur.InventaireServiceImpl AddProduit
+INFO: Tentative d'ajout du produit : Server.Model.Produit@5acf6443
+janv. 03, 2025 4:52:52 AM Server.RmiServeur.InventaireServiceImpl AddProduit
+INFO: Produit ajouté avec succès : Server.Model.Produit@5acf6443
+janv. 03, 2025 4:52:53 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Tentative de récupération de tous les produits
+janv. 03, 2025 4:52:53 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Nombre de produits récupérés : 2
+janv. 03, 2025 5:01:05 AM Server.RmiServeur.InventaireServiceImpl authenticate
+INFO: Tentative d'authentification pour l'utilisateur : admin
+janv. 03, 2025 5:01:06 AM Server.RmiServeur.InventaireServiceImpl authenticate
+WARNING: Authentification échouée pour l'utilisateur : admin
+janv. 03, 2025 5:01:56 AM Server.RmiServeur.InventaireServiceImpl authenticate
+INFO: Tentative d'authentification pour l'utilisateur : admin
+janv. 03, 2025 5:01:56 AM Server.RmiServeur.InventaireServiceImpl authenticate
+INFO: Authentification réussie pour l'utilisateur : admin
+janv. 03, 2025 5:01:56 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Tentative de récupération de tous les produits
+janv. 03, 2025 5:01:56 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Nombre de produits récupérés : 2
+janv. 03, 2025 5:02:38 AM Server.RmiServeur.InventaireServiceImpl AddProduit
+INFO: Tentative d'ajout du produit : Server.Model.Produit@310cabf9
+janv. 03, 2025 5:02:38 AM Server.RmiServeur.InventaireServiceImpl AddProduit
+INFO: Produit ajouté avec succès : Server.Model.Produit@310cabf9
+janv. 03, 2025 5:03:08 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Tentative de récupération de tous les produits
+janv. 03, 2025 5:03:08 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Nombre de produits récupérés : 3
+janv. 03, 2025 5:04:11 AM Server.RmiServeur.InventaireServiceImpl DeleteProduit
+INFO: Tentative de suppression du produit avec ID : 9
+janv. 03, 2025 5:04:11 AM Server.RmiServeur.InventaireServiceImpl DeleteProduit
+INFO: Produit supprimé avec succès avec ID : 9
+janv. 03, 2025 5:04:11 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Tentative de récupération de tous les produits
+janv. 03, 2025 5:04:11 AM Server.RmiServeur.InventaireServiceImpl GetAllProduits
+INFO: Nombre de produits récupérés : 2
